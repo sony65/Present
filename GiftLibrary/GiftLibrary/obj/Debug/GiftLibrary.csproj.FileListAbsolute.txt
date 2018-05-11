@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\дискретка\GiftLibrary\GiftLibrary\bin\Debug\GiftLibrary.dll
+C:\Users\User\Desktop\дискретка\GiftLibrary\GiftLibrary\bin\Debug\GiftLibrary.pdb
+C:\Users\User\Desktop\дискретка\GiftLibrary\GiftLibrary\obj\Debug\GiftLibrary.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\дискретка\GiftLibrary\GiftLibrary\obj\Debug\GiftLibrary.dll
+C:\Users\User\Desktop\дискретка\GiftLibrary\GiftLibrary\obj\Debug\GiftLibrary.pdb

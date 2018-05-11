@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\bin\Debug\ЛБ4.exe.config
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\bin\Debug\ЛБ4.exe
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\bin\Debug\ЛБ4.pdb
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\bin\Debug\GiftLibrary.dll
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\bin\Debug\GiftLibrary.pdb
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\obj\Debug\ЛБ4.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\obj\Debug\ЛБ4.exe
+C:\Users\User\Desktop\дискретка\GiftLibrary\ЛБ4\obj\Debug\ЛБ4.pdb
