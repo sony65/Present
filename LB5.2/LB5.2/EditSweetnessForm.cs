@@ -308,7 +308,17 @@ namespace LB5._2
         //Создание числа сладостей
         public int CreateCount()
         {
-            return int.Parse(SweetsCountBox.Text);
+            try
+            {
+                var count = int.Parse(SweetsCountBox.Text);
+                if (count <= 0) throw new FormatException("Неверный формат");
+                return count;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         //лизэйбл всех элементов формы
