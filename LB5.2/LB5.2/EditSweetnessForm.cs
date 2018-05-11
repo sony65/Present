@@ -248,10 +248,22 @@ namespace LB5._2
             var sweetness = EnumHelper.SweetnessDict[SweethessKindBox.Text.ToString()].Create();
 
             sweetness.CompanyName = CompanyNameBox.Text;
-            sweetness.FilingWeight = double.Parse(FillingWeightBox.Text);
             sweetness.Filling = new Filling { Kind = FillingTypeBox.Text };
             sweetness.Name = SweetnesNameBox.Text;
-            sweetness.SelfWeight = double.Parse(SweetnessWeightBox.Text);
+
+            try
+            {
+                if (double.Parse(FillingWeightBox.Text) <= 0) throw new FormatException("Неверный формат");
+                if (double.Parse(SweetnessWeightBox.Text) <= 0) throw new FormatException("Неверный формат");
+
+                sweetness.FilingWeight = double.Parse(FillingWeightBox.Text);
+                sweetness.SelfWeight = double.Parse(SweetnessWeightBox.Text);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
 
             var sweetnessType = sweetness.GetType().ToString();
             switch (sweetnessType)
@@ -324,18 +336,29 @@ namespace LB5._2
 
         private void OkButton_Click(object sender, EventArgs e)
         {
-            if (_case == Case.ДОБАВИТЬ)
+            try
             {
-                _sweets.Add(CreateSweetness(), CreateCount());
+                var sweetness = CreateSweetness();
+                var count = CreateCount();
+
+                if (_case == Case.ДОБАВИТЬ)
+                {
+                    _sweets.Add(sweetness, count);
+                }
+                else if (_case == Case.РЕДАКТИРОВАТЬ)
+                {
+                    _sweets.Remove(_sweetness);
+                    _sweets.Add(sweetness, count);
+                }
+                //Перерисовка формы подарка
+                _form.PaintElements();
+                this.Close();
             }
-            else if (_case == Case.РЕДАКТИРОВАТЬ)
+            catch (Exception)
             {
-                _sweets.Remove(_sweetness);
-                _sweets.Add(CreateSweetness(), CreateCount());
+
+                this.Close();
             }
-            //Перерисовка формы подарка
-            _form.PaintElements();
-            this.Close();
         }
 
         private void CancButton_Click(object sender, EventArgs e)

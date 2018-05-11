@@ -27,3 +27,17 @@ C:\Users\rseng\Desktop\Новая папка\LB5.2\LB5.2\bin\Debug\LB5.2.exe
 C:\Users\rseng\Desktop\Новая папка\LB5.2\LB5.2\bin\Debug\LB5.2.pdb
 C:\Users\rseng\Desktop\Новая папка\LB5.2\LB5.2\bin\Debug\GiftLibrary.dll
 C:\Users\rseng\Desktop\Новая папка\LB5.2\LB5.2\bin\Debug\GiftLibrary.pdb
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\bin\Debug\LB5.2.exe.config
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5.2.exe
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5.2.pdb
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\bin\Debug\LB5.2.exe
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\bin\Debug\LB5.2.pdb
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\bin\Debug\GiftLibrary.dll
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\bin\Debug\GiftLibrary.pdb
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5.2.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5._2.EditPackageForm.resources
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5._2.EditSweetnessForm.resources
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5._2.StartForm.resources
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5._2.MainForm.resources
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5._2.Properties.Resources.resources
+C:\Users\User\Desktop\Laba6\Present\LB5.2\LB5.2\obj\Debug\LB5.2.csproj.GenerateResource.Cache
